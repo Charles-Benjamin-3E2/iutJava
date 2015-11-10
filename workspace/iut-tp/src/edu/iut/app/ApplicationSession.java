@@ -1,5 +1,6 @@
 package edu.iut.app;
 
+import java.util.Enumeration;
 import java.util.ResourceBundle;
 import java.util.Locale;
 import java.util.logging.Level;
@@ -8,25 +9,24 @@ import java.util.logging.Logger;
 public class ApplicationSession {
 	
 	// Exercice 1 : Gérer l'internationation
-	protected /* Objet permettant la gestion des 'resources bundle' */ resourceBundle;
-	protected /* Objet permettant la gestion des Locales */ locale;
+	protected ResourceBundle resourceBundle;
+	protected Locale locale;
 	
 	// Exercice 2 : Logger
 	protected Logger sessionGuiLogger;
 	protected Logger sessionExceptionLogger;
 
 
-	private /*Qu'est ce qu'un singleton ?*/ ApplicationSession session = null;
+	private /*Qu'est ce qu'un singleton ?*/ static ApplicationSession session = null;
 	private ApplicationSession() {
 		/* Definir US comme locale par défaut */
-		Locale./* à compléter */
-		
+		Locale.setDefault(Locale.US);
 		locale = Locale.getDefault();
-		resourceBundle = /* à compléter */
-		sessionGuiLogger = /* Initialiser le logger */
-		sessionGuiLogger.setLevel(/* Touls les message doivent être affiché */));
-		sessionExceptionLogger = /* Logger pour exception */
-		sessionExceptionLogger.setLevel(/* Touls les message doivent être affiché */);
+		resourceBundle = ResourceBundle.getBundle("edu.iut.exceptions", locale);
+		sessionGuiLogger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
+		sessionGuiLogger.setLevel(Level.ALL);
+		sessionExceptionLogger = Logger.getAnonymousLogger();
+		sessionExceptionLogger.setLevel(Level.ALL);
 	}
 	
 	
@@ -47,7 +47,7 @@ public class ApplicationSession {
 	public void setLocale(Locale locale){
 		this.locale = locale;
 		Locale.setDefault(this.locale);
-		resourceBundle=/* récupérer les resources */
+		resourceBundle=ResourceBundle.getBundle("edu.iut.exceptions", locale);
 	}
 	
 	public String getString(String key) {

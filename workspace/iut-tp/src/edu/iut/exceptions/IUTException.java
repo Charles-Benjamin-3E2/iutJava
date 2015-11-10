@@ -1,7 +1,7 @@
 package edu.iut.exceptions;
 
 // Exercice 2 
-public class IUTException /* étendre les exceptio, */{
+public class IUTException extends Exception /* étendre les exceptio, */{
 	public IUTException() {
 		super();
 		// Logger une erreur avec le message empty en utilisant le singleton session, ie le logger défini dans la session */
