@@ -5,19 +5,20 @@ import javax.swing.JPanel;
 
 
 import edu.iut.gui.widget.agenda.AgendaPanelFactory.ActiveView;
-
+import edu.iut.app.ApplicationSession;
 
 public class WeekPanel extends EventPanel {
 
+	// Exercice 4
 	public enum WeekDayNames {
 		EMPTYDAY("",""),
-		MONDAY("monday","mon"),
-		TUESDAY("tuesday","tue"),
-		WEDNESDAY("wednesday","wed"),
-		THURSDAY("thursday","thu"),
-		FRIDAY("friday","fri"),
-		SATURDAY("saturday","sat"),
-		SUNDAY("sunday","sun");
+		MONDAY(/* Internationalisation */),
+		TUESDAY(/* Internationalisation */),
+		WEDNESDAY(/* Internationalisation */),
+		THURSDAY(/* Internationalisation */),
+		FRIDAY(/* Internationalisation */),
+		SATURDAY(/* Internationalisation */),
+		SUNDAY(/* Internationalisation */);
 		
 		private String name;
 		private String shortName;
@@ -40,7 +41,7 @@ public class WeekPanel extends EventPanel {
 		super(ActiveView.WEEK_VIEW);
 		GridLayout daysOfWeekLayout = new GridLayout(1,7);		
 		this.setLayout(daysOfWeekLayout);
-		for (int di = 0;di<7;di++)	{
+		for (int di = 0;di<8;di++)	{
 			this.add(new DayPanel(ActiveView.WEEK_VIEW,WeekDayNames.values()[di+1]));
 		}
 	}
