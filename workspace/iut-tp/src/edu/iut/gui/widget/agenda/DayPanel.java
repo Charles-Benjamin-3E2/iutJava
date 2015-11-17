@@ -27,8 +27,7 @@ public class DayPanel extends EventPanel {
 				this.setLayout(daysLayout);
 				this.add(new JLabel(weekDayNames.toString()));
 			}
-			
-			
+						
 			for (int hi = 0;hi<24;hi++) {
 				JPanel hour = new JPanel();
 				hour.add(new JLabel(new Integer(hi).toString()));
@@ -42,4 +41,16 @@ public class DayPanel extends EventPanel {
 		
 		}
 	}
+	
+	protected void setupUIDayView() {
+		
+	}
+	protected void setupUIWeekView() {
+		
+	}
+	protected void setupUIMonthView() {
+		
+	}
+
+
 }
