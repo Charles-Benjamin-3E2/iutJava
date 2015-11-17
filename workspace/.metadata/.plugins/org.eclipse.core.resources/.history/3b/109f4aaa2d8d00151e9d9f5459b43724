@@ -17,11 +17,12 @@ public class ApplicationSession {
 	protected Logger sessionExceptionLogger;
 
 
-	private static ApplicationSession session = null;
+	private /*Qu'est ce qu'un singleton ?*/ static ApplicationSession session = null;
 	private ApplicationSession() {
-		Locale.setDefault(new Locale("US"));
+		/* Definir US comme locale par défaut */
+		Locale.setDefault(Locale.US);
 		locale = Locale.getDefault();
-		resourceBundle = ResourceBundle.getBundle("edu/iut/resources/strings/res", locale);
+		resourceBundle = ResourceBundle.getBundle("edu.iut.exceptions", locale);
 		sessionGuiLogger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 		sessionGuiLogger.setLevel(Level.ALL);
 		sessionExceptionLogger = Logger.getAnonymousLogger();
@@ -46,7 +47,7 @@ public class ApplicationSession {
 	public void setLocale(Locale locale){
 		this.locale = locale;
 		Locale.setDefault(this.locale);
-		resourceBundle=ResourceBundle.getBundle("edu/iut/resources/strings/res", locale);
+		resourceBundle=ResourceBundle.getBundle("edu.iut.exceptions", locale);
 	}
 	
 	public String getString(String key) {

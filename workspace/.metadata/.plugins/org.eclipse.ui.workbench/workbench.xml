@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="14" version="2.0">
 <workbenchAdvisor/>
-<window height="772" width="1022" x="0" y="188">
+<window height="772" maximized="true" width="1022" x="0" y="188">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="122" y="24"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="132" y="26"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launch.toolbar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="130" y="24"/>
-<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="34" y="24"/>
-<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="74" y="24"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="74" y="24"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="106" y="24"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="142" y="26"/>
+<coolItem id="org.eclipse.debug.ui.main.toolbar" itemType="typeToolBarContribution" x="36" y="26"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="80" y="26"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="80" y="26"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="114" y="26"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="194" y="24"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="212" y="26"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.PropertiesFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -31,17 +33,87 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationLogs.java" partName="ApplicationLogs.java" title="ApplicationLogs.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/ApplicationLogs.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/ApplicationLogs.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="789" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeekPanel.java" partName="WeekPanel.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/WeekPanel.java" title="WeekPanel.java" tooltip="iut-tp/src/edu/iut/gui/widget/agenda/WeekPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/gui/widget/agenda/WeekPanel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1520" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SchedulerFrame.java" partName="SchedulerFrame.java" title="SchedulerFrame.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/frames/SchedulerFrame.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/frames/SchedulerFrame.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="238"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IUTException.java" partName="IUTException.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/exceptions/IUTException.java" title="IUTException.java" tooltip="iut-tp/src/edu/iut/exceptions/IUTException.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/exceptions/IUTException.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="532" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationErrorLog.java" partName="ApplicationErrorLog.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/app/ApplicationErrorLog.java" title="ApplicationErrorLog.java" tooltip="iut-tp/src/edu/iut/app/ApplicationErrorLog.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/app/ApplicationErrorLog.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="284" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationWarningLog.java" partName="ApplicationWarningLog.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/app/ApplicationWarningLog.java" title="ApplicationWarningLog.java" tooltip="iut-tp/src/edu/iut/app/ApplicationWarningLog.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/app/ApplicationWarningLog.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SchedulerFrame.java" partName="SchedulerFrame.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/gui/frames/SchedulerFrame.java" title="SchedulerFrame.java" tooltip="iut-tp/src/edu/iut/gui/frames/SchedulerFrame.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/gui/frames/SchedulerFrame.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1250" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractApplicationMessageDialog.java" partName="AbstractApplicationMessageDialog.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/gui/listeners/AbstractApplicationMessageDialog.java" title="AbstractApplicationMessageDialog.java" tooltip="iut-tp/src/edu/iut/gui/listeners/AbstractApplicationMessageDialog.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/gui/listeners/AbstractApplicationMessageDialog.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationErrorMessageDialog.java" partName="ApplicationErrorMessageDialog.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/gui/listeners/ApplicationErrorMessageDialog.java" title="ApplicationErrorMessageDialog.java" tooltip="iut-tp/src/edu/iut/gui/listeners/ApplicationErrorMessageDialog.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/gui/listeners/ApplicationErrorMessageDialog.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationInfoMessageDialog.java" partName="ApplicationInfoMessageDialog.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/gui/listeners/ApplicationInfoMessageDialog.java" title="ApplicationInfoMessageDialog.java" tooltip="iut-tp/src/edu/iut/gui/listeners/ApplicationInfoMessageDialog.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/gui/listeners/ApplicationInfoMessageDialog.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationWarningMessageDialog.java" partName="ApplicationWarningMessageDialog.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/gui/listeners/ApplicationWarningMessageDialog.java" title="ApplicationWarningMessageDialog.java" tooltip="iut-tp/src/edu/iut/gui/listeners/ApplicationWarningMessageDialog.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/gui/listeners/ApplicationWarningMessageDialog.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AgendaPanelFactory.java" partName="AgendaPanelFactory.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/AgendaPanelFactory.java" title="AgendaPanelFactory.java" tooltip="iut-tp/src/edu/iut/gui/widget/agenda/AgendaPanelFactory.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/gui/widget/agenda/AgendaPanelFactory.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="667" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ControlAgendaViewPanel.java" partName="ControlAgendaViewPanel.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/ControlAgendaViewPanel.java" title="ControlAgendaViewPanel.java" tooltip="iut-tp/src/edu/iut/gui/widget/agenda/ControlAgendaViewPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/gui/widget/agenda/ControlAgendaViewPanel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DayPanel.java" partName="DayPanel.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/DayPanel.java" title="DayPanel.java" tooltip="iut-tp/src/edu/iut/gui/widget/agenda/DayPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/gui/widget/agenda/DayPanel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventPanel.java" partName="EventPanel.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/EventPanel.java" title="EventPanel.java" tooltip="iut-tp/src/edu/iut/gui/widget/agenda/EventPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/gui/widget/agenda/EventPanel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MonthPanel.java" partName="MonthPanel.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/MonthPanel.java" title="MonthPanel.java" tooltip="iut-tp/src/edu/iut/gui/widget/agenda/MonthPanel.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/gui/widget/agenda/MonthPanel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IUTScheduler.java" partName="IUTScheduler.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/tools/IUTScheduler.java" title="IUTScheduler.java" tooltip="iut-tp/src/edu/iut/tools/IUTScheduler.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/tools/IUTScheduler.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="365" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationSession.java" partName="ApplicationSession.java" path="/home/charles.guitton/iutJava/workspace/iut-tp/src/edu/iut/app/ApplicationSession.java" title="ApplicationSession.java" tooltip="iut-tp/src/edu/iut/app/ApplicationSession.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/iut-tp/src/edu/iut/app/ApplicationSession.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="886" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -50,13 +122,19 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="149" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<expanded>
+<category IMemento.internal.id="Warnings (17 items)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="811" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -105,7 +183,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.ui.internal.ide.application.ResourcePerspective" id="org.eclipse.ui.resourcePerspective" label="Resource"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -224,6 +302,7 @@
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="org.eclipse.jdt.ui.JavadocView"/>
 <view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
 <layout>
@@ -249,18 +328,19 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.74153847" ratioLeft="482" ratioRight="168" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
@@ -281,54 +361,170 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/ApplicationLogs.java"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/DayPanel.java"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/EventPanel.java"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/MonthPanel.java"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/WeekPanel.java"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/frames/SchedulerFrame.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/iut-tp/src/edu/iut/gui/widget/agenda/WeekPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/iut-tp/src/edu/iut/app/ApplicationSession.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/iut-tp/src/edu/iut/gui/frames/SchedulerFrame.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/iut-tp/src/edu/iut/gui/widget/agenda/AgendaPanelFactory.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/iut-tp/src/edu/iut/gui/widget/agenda/ControlAgendaViewPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/iut-tp/src/edu/iut/gui/widget/agenda/DayPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/iut-tp/src/edu/iut/gui/widget/agenda/EventPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/iut-tp/src/edu/iut/gui/widget/agenda/MonthPanel.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/iut-tp/src/edu/iut/resources/strings/res_fr.properties"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" path="/iut-tp/src/edu/iut/resources/strings/res.properties"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/iut-tp/src/edu/iut/tools/IUTScheduler.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=iut-tp/\/usr\/lib\/jvm\/java-7-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.util(ResourceBundle.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=iut-tp/\/usr\/lib\/jvm\/java-7-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.awt.event(InvocationEvent.class"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=iut-tp/\/usr\/lib\/jvm\/java-7-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.awt(EventQueue.class"/>
 </editors>
-<item historyLabel="ApplicationLogs.java" index="0">
-<position info="not_deleted" x="789" y="0"/>
-</item>
-<item historyLabel="DayPanel.java" index="1">
+<item historyLabel="AgendaPanelFactory.java" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="EventPanel.java" index="2">
+<item historyLabel="ControlAgendaViewPanel.java" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MonthPanel.java" index="3">
+<item historyLabel="DayPanel.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="WeekPanel.java" index="4">
+<item historyLabel="EventPanel.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MonthPanel.java" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="WeekPanel.java" index="0">
+<position info="not_deleted" x="256" y="0"/>
+</item>
+<item historyLabel="res_fr.properties" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="res.properties" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="res_fr.properties" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="res.properties" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="WeekPanel.java" index="0">
+<position info="not_deleted" x="256" y="0"/>
+</item>
+<item historyLabel="IUTScheduler.java" index="10">
+<position info="not_deleted" x="373" y="0"/>
+</item>
+<item historyLabel="ResourceBundle.class" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ApplicationSession.java" index="1">
 <position/>
 </item>
-<item historyLabel="MonthPanel.java" index="3">
+<item historyLabel="ResourceBundle.class" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="EventPanel.java" index="2">
+<item historyLabel="ApplicationSession.java" index="1">
+<position/>
+</item>
+<item historyLabel="ApplicationSession.java" index="1">
+<position info="not_deleted" x="737" y="0"/>
+</item>
+<item historyLabel="MonthPanel.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MonthPanel.java" index="3">
+<item historyLabel="EventPanel.java" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="DayPanel.java" index="1">
+<item historyLabel="DayPanel.java" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MonthPanel.java" index="3">
+<item historyLabel="ControlAgendaViewPanel.java" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ApplicationLogs.java" index="0">
-<position info="not_deleted" x="789" y="0"/>
+<item historyLabel="IUTScheduler.java" index="10">
+<position info="not_deleted" x="373" y="0"/>
 </item>
-<item historyLabel="WeekPanel.java" index="4">
+<item historyLabel="MonthPanel.java" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ApplicationLogs.java" index="0">
-<position info="not_deleted" x="789" y="0"/>
+<item historyLabel="WeekPanel.java" index="0">
+<position info="not_deleted" x="1078" y="0"/>
 </item>
-<item active="true" historyLabel="SchedulerFrame.java" index="5">
+<item historyLabel="ApplicationSession.java" index="1">
+<position info="not_deleted" x="737" y="0"/>
+</item>
+<item historyLabel="ApplicationSession.java" index="1">
+<position info="not_deleted" x="1335" y="0"/>
+</item>
+<item historyLabel="ApplicationSession.java" index="1">
+<position info="not_deleted" x="1316" y="0"/>
+</item>
+<item historyLabel="WeekPanel.java" index="0">
+<position info="not_deleted" x="1529" y="76"/>
+</item>
+<item historyLabel="WeekPanel.java" index="0">
+<position info="not_deleted" x="1296" y="0"/>
+</item>
+<item historyLabel="WeekPanel.java" index="0">
+<position info="not_deleted" x="1529" y="76"/>
+</item>
+<item historyLabel="AgendaPanelFactory.java" index="3">
+<position info="not_deleted" x="817" y="42"/>
+</item>
+<item historyLabel="SchedulerFrame.java" index="2">
+<position info="not_deleted" x="1599" y="12"/>
+</item>
+<item historyLabel="IUTScheduler.java" index="10">
+<position info="not_deleted" x="87" y="0"/>
+</item>
+<item historyLabel="WeekPanel.java" index="0">
+<position info="not_deleted" x="1529" y="76"/>
+</item>
+<item historyLabel="AgendaPanelFactory.java" index="3">
+<position info="not_deleted" x="797" y="0"/>
+</item>
+<item historyLabel="WeekPanel.java" index="0">
+<position info="not_deleted" x="1529" y="76"/>
+</item>
+<item historyLabel="SchedulerFrame.java" index="2">
+<position info="not_deleted" x="1599" y="12"/>
+</item>
+<item historyLabel="SchedulerFrame.java" index="2">
+<position info="not_deleted" x="870" y="19"/>
+</item>
+<item historyLabel="IUTScheduler.java" index="10">
+<position info="not_deleted" x="365" y="0"/>
+</item>
+<item historyLabel="InvocationEvent.class" index="12">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="EventQueue.class" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="InvocationEvent.class" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="IUTScheduler.java" index="10">
+<position info="not_deleted" x="365" y="0"/>
+</item>
+<item historyLabel="ApplicationSession.java" index="1">
+<position info="not_deleted" x="886" y="0"/>
+</item>
+<item historyLabel="SchedulerFrame.java" index="2">
+<position info="not_deleted" x="1250" y="0"/>
+</item>
+<item historyLabel="WeekPanel.java" index="0">
+<position info="not_deleted" x="1271" y="0"/>
+</item>
+<item historyLabel="AgendaPanelFactory.java" index="3">
+<position info="not_deleted" x="667" y="0"/>
+</item>
+<item historyLabel="WeekPanel.java" index="0">
+<position info="not_deleted" x="1529" y="76"/>
+</item>
+<item historyLabel="WeekPanel.java" index="0">
+<position info="not_deleted" x="1528" y="0"/>
+</item>
+<item active="true" historyLabel="WeekPanel.java" index="0">
+<position info="not_deleted" x="1529" y="76"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -347,50 +543,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SchedulerFrame.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/frames/SchedulerFrame.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/frames/SchedulerFrame.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="EventQueue.class" tooltip="java.awt.EventQueue">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=iut-tp/\/usr\/lib\/jvm\/java-7-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.awt(EventQueue.class"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="WeekPanel.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/WeekPanel.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/WeekPanel.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="InvocationEvent.class" tooltip="java.awt.event.InvocationEvent">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=iut-tp/\/usr\/lib\/jvm\/java-7-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.awt.event(InvocationEvent.class"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MonthPanel.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/MonthPanel.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/MonthPanel.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationSession.java" tooltip="iut-tp/src/edu/iut/app/ApplicationSession.java">
+<persistable path="/iut-tp/src/edu/iut/app/ApplicationSession.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventPanel.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/EventPanel.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/EventPanel.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="ResourceBundle.class" tooltip="java.util.ResourceBundle">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=iut-tp/\/usr\/lib\/jvm\/java-7-openjdk-amd64\/jre\/lib\/rt.jar&lt;java.util(ResourceBundle.class"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DayPanel.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/DayPanel.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/widget/agenda/DayPanel.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IUTScheduler.java" tooltip="iut-tp/src/edu/iut/tools/IUTScheduler.java">
+<persistable path="/iut-tp/src/edu/iut/tools/IUTScheduler.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationLogs.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/ApplicationLogs.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/ApplicationLogs.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="res.properties" tooltip="iut-tp/src/edu/iut/resources/strings/res.properties">
+<persistable path="/iut-tp/src/edu/iut/resources/strings/res.properties"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IApplicationLogListener.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/IApplicationLogListener.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/IApplicationLogListener.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.PropertiesFileEditor" name="res_fr.properties" tooltip="iut-tp/src/edu/iut/resources/strings/res_fr.properties">
+<persistable path="/iut-tp/src/edu/iut/resources/strings/res_fr.properties"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="IApplicationLog.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/IApplicationLog.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/IApplicationLog.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MonthPanel.java" tooltip="iut-tp/src/edu/iut/gui/widget/agenda/MonthPanel.java">
+<persistable path="/iut-tp/src/edu/iut/gui/widget/agenda/MonthPanel.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationWarningLog.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/ApplicationWarningLog.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/ApplicationWarningLog.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="EventPanel.java" tooltip="iut-tp/src/edu/iut/gui/widget/agenda/EventPanel.java">
+<persistable path="/iut-tp/src/edu/iut/gui/widget/agenda/EventPanel.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationInfoLog.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/ApplicationInfoLog.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/ApplicationInfoLog.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DayPanel.java" tooltip="iut-tp/src/edu/iut/gui/widget/agenda/DayPanel.java">
+<persistable path="/iut-tp/src/edu/iut/gui/widget/agenda/DayPanel.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationErrorLog.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/ApplicationErrorLog.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/ApplicationErrorLog.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ControlAgendaViewPanel.java" tooltip="iut-tp/src/edu/iut/gui/widget/agenda/ControlAgendaViewPanel.java">
+<persistable path="/iut-tp/src/edu/iut/gui/widget/agenda/ControlAgendaViewPanel.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AbstractApplicationLog.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/AbstractApplicationLog.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/app/AbstractApplicationLog.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AgendaPanelFactory.java" tooltip="iut-tp/src/edu/iut/gui/widget/agenda/AgendaPanelFactory.java">
+<persistable path="/iut-tp/src/edu/iut/gui/widget/agenda/AgendaPanelFactory.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationWarningMessageDialog.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/listeners/ApplicationWarningMessageDialog.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/listeners/ApplicationWarningMessageDialog.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationWarningMessageDialog.java" tooltip="iut-tp/src/edu/iut/gui/listeners/ApplicationWarningMessageDialog.java">
+<persistable path="/iut-tp/src/edu/iut/gui/listeners/ApplicationWarningMessageDialog.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationInfoMessageDialog.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/listeners/ApplicationInfoMessageDialog.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/listeners/ApplicationInfoMessageDialog.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationInfoMessageDialog.java" tooltip="iut-tp/src/edu/iut/gui/listeners/ApplicationInfoMessageDialog.java">
+<persistable path="/iut-tp/src/edu/iut/gui/listeners/ApplicationInfoMessageDialog.java"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationErrorMessageDialog.java" tooltip="/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/listeners/ApplicationErrorMessageDialog.java">
-<persistable uri="file:/home/benjamin.mare/Documents/java/iutJava/workspace/iut-tp/src/edu/iut/gui/listeners/ApplicationErrorMessageDialog.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ApplicationErrorMessageDialog.java" tooltip="iut-tp/src/edu/iut/gui/listeners/ApplicationErrorMessageDialog.java">
+<persistable path="/iut-tp/src/edu/iut/gui/listeners/ApplicationErrorMessageDialog.java"/>
 </file>
 </mruList>
 </workbench>
