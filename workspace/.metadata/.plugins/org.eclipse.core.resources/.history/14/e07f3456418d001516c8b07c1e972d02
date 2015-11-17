@@ -1,0 +1,122 @@
+package edu.iut.app;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Date;
+import java.util.Iterator;
+
+public class ExamEvent implements Collection {
+	public ExamEvent() {		
+		examDate=new Date();
+		student=new Person();
+		jury= new ArrayList <>();
+		classroom= new Classroom();
+		documents=new ArrayList<>();
+		examEvent=null;
+	}
+	
+	public ExamEvent(Date date, Person person, ArrayList<Person> jury,Classroom classRoom, ArrayList<Document> document) {
+		examDate=date;
+		student=person;
+		this.jury=jury;
+		classroom=classRoom;
+		documents=document;
+		examEvent=null;		
+	}
+	
+	/** EX2: FAITE LES ACCESSEURS DES ATTRIBUTS, AJOUTER DES ATTRIBUT ? **/
+	protected Date examDate;
+	protected Person student;
+	protected ArrayList<Person> jury;
+	protected Classroom classroom;
+	protected ArrayList<Document> documents;
+	protected ExamEvent examEvent;
+	
+	
+	@Override
+	public boolean add(Object arg0) {
+		if(arg0 instanceof ExamEvent){
+			ExamEvent temp=(ExamEvent)arg0;
+			if (examEvent==null)examEvent=temp;
+			else examEvent.add(temp);
+			return true;
+		}
+		return false;
+	}
+
+	@Override
+	public boolean addAll(Collection arg0) {
+		return this.add(arg0);
+	}
+
+	@Override
+	public void clear() {
+		examDate=new Date();
+		student=new Person();
+		jury= new ArrayList <>();
+		classroom= new Classroom();
+		documents=new ArrayList<>();
+		examEvent=null;
+	}
+
+	@Override
+	public boolean contains(Object arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean containsAll(Collection arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Iterator iterator() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean remove(Object arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean removeAll(Collection arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean retainAll(Collection arg0) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public int size() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Object[] toArray() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Object[] toArray(Object[] arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	 
+}
