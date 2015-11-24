@@ -44,10 +44,9 @@ public class ControlAgendaViewPanel extends JPanel {
 		selectedMonth = Calendar.MONTH; 
 		selectedDay = Calendar.DAY_OF_WEEK; 
 		
-		contentPane.setLayout(agendaViewLayout);
-		contentPane.add(jour);
-		contentPane.add(mois);
-		
+		add(jour);
+		add(mois);
+		add(annee);
 	}
 	
 	public int getYear() {
