@@ -3,7 +3,6 @@ package edu.iut.app;
 public class Person {
 	
 	public enum PersonFunction{
-		/* EX2 : Internationalisation */
 		NONE("None"),
 		JURY("Jury"),
 		STUDENT("Student");
@@ -23,12 +22,16 @@ public class Person {
 		personFunction = PersonFunction.NONE;
 	}
 	
-	public Person(PersonFunction personFunction,String firstname,String lastname,String email,String phone) {
-		this.personFunction=personFunction;
-		this.firstname=firstname;
-		this.lastname=lastname;
-		this.email=email;
-		this.phone=phone;
+	public Person(PersonFunction personFunction,
+				  String firstname,
+				  String lastname,
+				  String email,
+				  String phone) {
+		this.personFunction = personFunction;
+		this.firstname = firstname;
+		this.lastname = lastname;
+		this.email = email;
+		this.phone = phone;
 	}
 	
 	public void setFunction(PersonFunction function) {

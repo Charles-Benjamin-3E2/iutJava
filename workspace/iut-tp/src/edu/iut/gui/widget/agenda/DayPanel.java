@@ -30,6 +30,7 @@ public class DayPanel extends EventPanel {
 						
 			for (int hi = 0;hi<24;hi++) {
 				JPanel hour = new JPanel();
+				// EX4 : Creer votre propre widget permettant, l'ajout d'un évènement et d'une personne
 				hour.add(new JLabel(new Integer(hi).toString()));
 				this.add(hour);
 			}
