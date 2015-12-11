@@ -7,5 +7,6 @@
 <listEntry value="1"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="edu.iut.tools.IUTScheduler"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="--project=toto"/>
 <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="iut-tp"/>
 </launchConfiguration>

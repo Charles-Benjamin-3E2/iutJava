@@ -30,7 +30,6 @@ public class SchedulerFrame extends JFrame {
 	JPanel monthView;
 	
 	protected void setupUI() {
-		
 		contentPane = new JPanel();
 		layerLayout = new CardLayout();
 		contentPane.setLayout(layerLayout);
@@ -81,7 +80,6 @@ public class SchedulerFrame extends JFrame {
 		});
 		menu.add(menuItem);		
 		menuBar.add(menu);
-		
 		/* Edit Menu */
 		menu = new JMenu("Edit");
 		JMenu submenu = new JMenu("View");
@@ -111,7 +109,6 @@ public class SchedulerFrame extends JFrame {
 		submenu.add(menuItem);
 		menu.add(submenu);
 		menuBar.add(menu);
-		
 		/* Help Menu */
 		menu = new JMenu("Help");
 		menuItem = new JMenuItem("Display");
@@ -151,7 +148,6 @@ public class SchedulerFrame extends JFrame {
 		monthView = null;
 		agendaPanelFactory = null;
 		setupUI();
-
 	}
 
 	

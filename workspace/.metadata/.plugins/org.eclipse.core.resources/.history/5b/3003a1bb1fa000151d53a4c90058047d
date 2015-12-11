@@ -1,0 +1,57 @@
+package edu.iut.io;
+
+
+import java.io.File;
+import java.util.ArrayList;
+
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+
+import edu.iut.app.Agenda;
+import edu.iut.app.ExamEvent;
+
+
+//EX 1 Completer la classe
+
+public class XMLProjectWriter {
+    
+    
+
+    public XMLProjectWriter(){}
+    
+    public void save(ArrayList<ExamEvent> data, java.io.File xmlfile)   {        
+        try{
+            DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+        
+        
+        DocumentBuilder builder = factory.newDocumentBuilder();
+        Document document= builder.newDocument();
+
+        Element root = document.createElement("agenda.xml");
+        document.appendChild(root);
+
+        for(int i = 0;i<data.size();i++) {
+          Element event = document.createElement("event");
+          event.setAttribute("public", "no");
+          event.setAttribute("date", data.get(i).getDate().toString());
+          
+          Element eventRoom = document.createElement("classroom");
+          eventRoom.setAttribute("number", data.get(i).getClassroom().getClassRoomNumber());
+          
+          Element eventStudent=document.createElement("");
+        
+          event.appendChild(eventRoom);
+          root.appendChild(event);
+        }
+        document.appendChild(root);
+        
+        }
+        catch (final ParserConfigurationException e) {
+            e.printStackTrace();
+        }
+    }
+}

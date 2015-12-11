@@ -21,8 +21,7 @@ public class CommandLineParser {
 	}
 	
 	public void parse(String[] args) {
-		for (String argument: args) {
-			String[] keyValue=argument.split("=");
+		for (String argument: args) {			String[] keyValue=argument.split("=");
 			if (options.containsKey(keyValue[0])) {
 				switch (((CommandLineOption<?>)options.get(keyValue[0])).getOptionType()) {
 					case FILE:
